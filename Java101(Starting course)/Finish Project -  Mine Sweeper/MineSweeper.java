@@ -191,7 +191,7 @@ public class MineSweeper {
                     System.out.println();
                 }
                 System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
-                System.out.println("CONGRATULATİONS! You Win " + this.nick + "!");
+                System.out.println("CONGRATULATIONS! You Win " + this.nick + "!");
                 System.out.println("Number of the mines: "+ this.mineNumber);
                 break;
             }
