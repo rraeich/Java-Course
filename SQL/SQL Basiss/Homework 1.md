@@ -1,9 +1,9 @@
 # HOMEWORK 1
 
-`Question 1`: _film tablosunda bulunan title ve description sütunlarındaki verileri sıralayınız._
-```
+Question 1: _film tablosunda bulunan title ve description sütunlarındaki verileri sıralayınız._
+`
   SELECT title,description FROM film;
-```
+`
 Question 2: _film tablosunda bulunan tüm sütunlardaki verileri film uzunluğu (length) 60 dan büyük VE 75 ten küçük olma koşullarıyla sıralayınız._
 ```
   SELECT * FROM film WHERE length > 60 AND length < 75;
