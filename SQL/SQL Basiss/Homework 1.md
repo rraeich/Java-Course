@@ -1,6 +1,6 @@
 # HOMEWORK 1
 
-Question 1: _film tablosunda bulunan title ve description sütunlarındaki verileri sıralayınız._
+`Question 1`: _film tablosunda bulunan title ve description sütunlarındaki verileri sıralayınız._
 ```
   SELECT title,description FROM film;
 ```
