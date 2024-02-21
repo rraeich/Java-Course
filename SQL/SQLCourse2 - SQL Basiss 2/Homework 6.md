@@ -11,11 +11,11 @@
 ```
 `Question 3:` _film tablosunda bulunan filmlerden rental_rate değeri 0.99 a eşit olan en uzun (length) film kaç dakikadır?_
 ```
-SELECT MAX(length) FROM film
-WHERE rental_rate = 0.99;
+    SELECT MAX(length) FROM film
+    WHERE rental_rate = 0.99;
 ```
 `Question 4:` _film tablosunda bulunan filmlerin uzunluğu 150 dakikadan büyük olanlarına ait kaç farklı replacement_cost değeri vardır?_
 ```
-SELECT COUNT(DISTINCT(replacement_cost)) FROM film
-WHERE length > 150;
+    SELECT COUNT(DISTINCT(replacement_cost)) FROM film
+    WHERE length > 150;
 ```
