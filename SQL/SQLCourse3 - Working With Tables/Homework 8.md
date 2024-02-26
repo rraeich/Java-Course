@@ -69,8 +69,8 @@
 ```
     UPDATE employee
     SET name = 'Joey',
-	    birthday = '1998-12-17',
-	    email = 'joe4kel918@gmail.com'
+	birthday = '1998-12-17',
+	email = 'joe4kel918@gmail.com'
     WHERE id = 17;
     -- 
     UPDATE employee
