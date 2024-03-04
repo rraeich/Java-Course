@@ -31,8 +31,7 @@
     GROUP BY category.category_id
     ORDER BY category_id;
 ```
-`Question 5:` _film tablosunda isminde en az 4 adet 'e' veya 'E' karakteri bulunan kç tane film vardır?
-_
+`Question 5:` _film tablosunda isminde en az 4 adet 'e' veya 'E' karakteri bulunan kç tane film vardır?_
 ```
     SELECT COUNT(*) FROM film
     WHERE title ILIKE '%e%e%e%e%'
