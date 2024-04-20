@@ -1,5 +1,6 @@
 NASIL ÇALIŞIR?
--Adventure Game adlı dosyayı direkt Kullancılır(siz) -> IdeaProjects -> src klasörüne atın ve Main sınıfından çalıştırın.
+-(Intellij IDEA)Adventure Game adlı dosyayı direkt Kullancılır(siz) -> IdeaProjects -> src klasörüne atın ve Main sınıfından çalıştırın.
+-Adventure Game klasöründeki kodları Kullandığınız programın kod klasörüne atın ve Main sınıfından oyunu çalıştırın.
 
 Bu oyun için çok uğraştım ve tonlarca ekstra özellik ekledim.
 Normal isterlerden farklı olarak 4 farklı karakter ekledim.
@@ -10,5 +11,5 @@ Oyunu bitirdiğimizde oyunu oynamak istersek diye tüm bölümlerin kilidini tek
 Her düşmana belli şansta para,zırh veya silah düşme olasılıkları ekledim. Bu olasılıklar yılanlarda daha yüksek.
 Yılanlarla Madende savaşırken rastgele hasar vurma ekledim ve tüm düşmanların sayısı rastgele belirleniyor.
 Oyun sonu arayüzü ekledim ve total kaç killiniz olduğunu oyun bittiğinde görebiliyorsunuz.
-Ayrıca yılanda 0.24, diğer canavlarda 0.08 yüzde şansla düşen ÖZEL BİR EASTER EGG dropu ekledim.
+Ayrıca oyuna ÖZEL BİR EASTER EGG ekledim en başında size soracaktır.
 Ana oyuna kıyasla tonlarca özellik ekledim, iyi oyunlar!
