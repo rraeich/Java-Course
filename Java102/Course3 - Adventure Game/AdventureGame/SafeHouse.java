@@ -24,6 +24,7 @@ public class SafeHouse extends SafeLocations {
             System.out.println("You collected all three special rewards.");
             System.out.println("Thanks for playing " + getPlayer().getName() + ".");
             System.out.println("I would like to thank my lover for supporting me <3. I love you MY DARLING. PELİNCİĞİM<3");
+            System.out.println("Note from my lover: my lover is so talented man. (only man i ever know :) )");
             System.out.println("All sections has been opened because you finished the game.");
             System.out.println("If you want to quit game, go selection menu and choose 0.");
             System.out.println("If you want to continue playing, you can enter to all sections as you want.");
