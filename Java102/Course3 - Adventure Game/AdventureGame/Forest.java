@@ -576,6 +576,7 @@ public class Forest extends BattleLocations {
                 }
             }
 
+            getMonster().setHealth(mainOldMonsterHealth);
             if (getPlayer().getInventory().isWood()) {
                 System.out.println("|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|");
                 System.out.println("CONGRATULATIONS! YOU WON " + getPlayer().getName() + "!!!");
