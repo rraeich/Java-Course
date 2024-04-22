@@ -29,6 +29,7 @@ public class Forest extends BattleLocations {
 
     @Override
     public void enterBattleLocation() {
+        int mainOldMonsterHealth = getMonster().getHealth();
         System.out.println(getPlayer().getName() + ", you entered the Forest. You will fight with forgotten forest vampires.");
 
         System.out.println("IMPORTANT: Once you roll the dice, you have to fight.");
