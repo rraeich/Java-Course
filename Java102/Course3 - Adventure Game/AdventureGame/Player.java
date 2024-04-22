@@ -149,9 +149,9 @@ public class Player {
                     this.type = "Samurai";
                     this.playerID = 1;
                     this.money = 29;
-                    this.health = 1000;
+                    this.health = 47;
                     this.maxHealth = this.health;
-                    this.damage = 100;
+                    this.damage = 5;
                     for (int i = 0; i < 10; i++) {
                         this.equipments[i] = "null";
                     }
