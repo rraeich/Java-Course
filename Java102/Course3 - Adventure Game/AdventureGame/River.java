@@ -557,6 +557,7 @@ public class River extends BattleLocations {
                 }
             }
 
+            getMonster().setHealth(mainOldMonsterHealth);
             if (getPlayer().getInventory().isWater()) {
                 System.out.println("|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|");
                 System.out.println("CONGRATULATIONS! YOU WON " + getPlayer().getName() + "!!!");
