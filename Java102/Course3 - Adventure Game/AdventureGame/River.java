@@ -178,12 +178,16 @@ public class River extends BattleLocations {
                             System.out.println("DAMN! " + getPlayer().getName() + " critically hits and his damage is doubled!!");
                             System.out.print(getMonster().getHealth() + " --> ");
                             getMonster().setHealth(getMonster().getHealth() - (getPlayer().getDamage() * 2));
+                            if (getMonster().getHealth() < 0)
+                            getMonster().setHealth(0);
                             System.out.println(getMonster().getHealth());
                         } else {
                             System.out.println(getPlayer().getName() + " --->>" + getPlayer().getDamage() + " " + getMonster().getName());
                             System.out.println(getPlayer().getName() + " attacked the " + getMonster().getName() + " and hit good damage.");
                             System.out.print(getMonster().getHealth() + " --> ");
                             getMonster().setHealth(getMonster().getHealth() - getPlayer().getDamage());
+                            if (getMonster().getHealth() < 0)
+                            getMonster().setHealth(0);
                             System.out.println(getMonster().getHealth());
                         }
 
@@ -281,12 +285,16 @@ public class River extends BattleLocations {
                             System.out.println("Oh no! " + getMonster().getName() + " critically hits and its damage is doubled!!");
                             System.out.print(getPlayer().getHealth() + " --> ");
                             getPlayer().setHealth(getPlayer().getHealth() - (getMonster().getDamage() * 2));
+                            if (getPlayer().getHealth() < 0)
+                            getPlayer().setHealth(0);
                             System.out.println(getPlayer().getHealth());
                         } else {
                             System.out.println(getMonster().getName() + " --->>" + getMonster().getDamage() + "  " + getPlayer().getName());
                             System.out.println(getMonster().getName() + " attacked the " + getPlayer().getName() + " and hit good damage.");
                             System.out.print(getPlayer().getHealth() + " --> ");
                             getPlayer().setHealth(getPlayer().getHealth() - getMonster().getDamage());
+                            if (getPlayer().getHealth() < 0)
+                            getPlayer().setHealth(0);
                             System.out.println(getPlayer().getHealth());
                         }
 
@@ -430,12 +438,16 @@ public class River extends BattleLocations {
                             System.out.println("Oh no! " + getMonster().getName() + " critically hits and its damage is doubled!!");
                             System.out.print(getPlayer().getHealth() + " --> ");
                             getPlayer().setHealth(getPlayer().getHealth() - (getMonster().getDamage() * 2));
+                            if (getPlayer().getHealth() < 0)
+                            getPlayer().setHealth(0);
                             System.out.println(getPlayer().getHealth());
                         } else {
                             System.out.println(getMonster().getName() + " --->>" + getMonster().getDamage() + "  " + getPlayer().getName());
                             System.out.println(getMonster().getName() + " attacked the " + getPlayer().getName() + " and hit good damage.");
                             System.out.print(getPlayer().getHealth() + " --> ");
                             getPlayer().setHealth(getPlayer().getHealth() - getMonster().getDamage());
+                            if (getPlayer().getHealth() < 0)
+                            getPlayer().setHealth(0);
                             System.out.println(getPlayer().getHealth());
                         }
 
@@ -496,12 +508,16 @@ public class River extends BattleLocations {
                             System.out.println("DAMN! " + getPlayer().getName() + " critically hits and his damage is doubled!!");
                             System.out.print(getMonster().getHealth() + " --> ");
                             getMonster().setHealth(getMonster().getHealth() - (getPlayer().getDamage() * 2));
+                            if (getMonster().getHealth() < 0)
+                            getMonster().setHealth(0);
                             System.out.println(getMonster().getHealth());
                         } else {
                             System.out.println(getPlayer().getName() + " --->>" + getPlayer().getDamage() + " " + getMonster().getName());
                             System.out.println(getPlayer().getName() + " attacked the " + getMonster().getName() + " and hit good damage.");
                             System.out.print(getMonster().getHealth() + " --> ");
                             getMonster().setHealth(getMonster().getHealth() - getPlayer().getDamage());
+                            if (getMonster().getHealth() < 0)
+                            getMonster().setHealth(0);
                             System.out.println(getMonster().getHealth());
                         }
 
