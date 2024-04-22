@@ -557,6 +557,7 @@ public class Cave extends BattleLocations {
                 }
             }
 
+            getMonster().setHealth(mainOldMonsterHealth);
             if (getPlayer().getInventory().isFood()) {
                 System.out.println("|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|");
                 System.out.println("CONGRATULATIONS! YOU WON " + getPlayer().getName() + "!!!");
