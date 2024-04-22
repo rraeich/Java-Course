@@ -179,7 +179,7 @@ public class River extends BattleLocations {
                             System.out.print(getMonster().getHealth() + " --> ");
                             getMonster().setHealth(getMonster().getHealth() - (getPlayer().getDamage() * 2));
                             if (getMonster().getHealth() < 0)
-                            getMonster().setHealth(0);
+                                getMonster().setHealth(0);
                             System.out.println(getMonster().getHealth());
                         } else {
                             System.out.println(getPlayer().getName() + " --->>" + getPlayer().getDamage() + " " + getMonster().getName());
@@ -187,7 +187,7 @@ public class River extends BattleLocations {
                             System.out.print(getMonster().getHealth() + " --> ");
                             getMonster().setHealth(getMonster().getHealth() - getPlayer().getDamage());
                             if (getMonster().getHealth() < 0)
-                            getMonster().setHealth(0);
+                                getMonster().setHealth(0);
                             System.out.println(getMonster().getHealth());
                         }
 
@@ -286,7 +286,7 @@ public class River extends BattleLocations {
                             System.out.print(getPlayer().getHealth() + " --> ");
                             getPlayer().setHealth(getPlayer().getHealth() - (getMonster().getDamage() * 2));
                             if (getPlayer().getHealth() < 0)
-                            getPlayer().setHealth(0);
+                                getPlayer().setHealth(0);
                             System.out.println(getPlayer().getHealth());
                         } else {
                             System.out.println(getMonster().getName() + " --->>" + getMonster().getDamage() + "  " + getPlayer().getName());
@@ -294,7 +294,7 @@ public class River extends BattleLocations {
                             System.out.print(getPlayer().getHealth() + " --> ");
                             getPlayer().setHealth(getPlayer().getHealth() - getMonster().getDamage());
                             if (getPlayer().getHealth() < 0)
-                            getPlayer().setHealth(0);
+                                getPlayer().setHealth(0);
                             System.out.println(getPlayer().getHealth());
                         }
 
@@ -439,7 +439,7 @@ public class River extends BattleLocations {
                             System.out.print(getPlayer().getHealth() + " --> ");
                             getPlayer().setHealth(getPlayer().getHealth() - (getMonster().getDamage() * 2));
                             if (getPlayer().getHealth() < 0)
-                            getPlayer().setHealth(0);
+                                getPlayer().setHealth(0);
                             System.out.println(getPlayer().getHealth());
                         } else {
                             System.out.println(getMonster().getName() + " --->>" + getMonster().getDamage() + "  " + getPlayer().getName());
@@ -447,7 +447,7 @@ public class River extends BattleLocations {
                             System.out.print(getPlayer().getHealth() + " --> ");
                             getPlayer().setHealth(getPlayer().getHealth() - getMonster().getDamage());
                             if (getPlayer().getHealth() < 0)
-                            getPlayer().setHealth(0);
+                                getPlayer().setHealth(0);
                             System.out.println(getPlayer().getHealth());
                         }
 
@@ -509,7 +509,7 @@ public class River extends BattleLocations {
                             System.out.print(getMonster().getHealth() + " --> ");
                             getMonster().setHealth(getMonster().getHealth() - (getPlayer().getDamage() * 2));
                             if (getMonster().getHealth() < 0)
-                            getMonster().setHealth(0);
+                                getMonster().setHealth(0);
                             System.out.println(getMonster().getHealth());
                         } else {
                             System.out.println(getPlayer().getName() + " --->>" + getPlayer().getDamage() + " " + getMonster().getName());
@@ -517,7 +517,7 @@ public class River extends BattleLocations {
                             System.out.print(getMonster().getHealth() + " --> ");
                             getMonster().setHealth(getMonster().getHealth() - getPlayer().getDamage());
                             if (getMonster().getHealth() < 0)
-                            getMonster().setHealth(0);
+                                getMonster().setHealth(0);
                             System.out.println(getMonster().getHealth());
                         }
 
