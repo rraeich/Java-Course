@@ -12,7 +12,7 @@ public class Main {
         Bear bear = new Bear("Bear",4,35,12);
         Zombie zombie = new Zombie("Zombie",3,23,9);
         Vampire vampire = new Vampire("Vampire",2,29,7);
-        Snake snake = new Snake("Snake",3,20,4);
+        Snake snake = new Snake("Snake",3,20,3);
 
         River river = new River(player,bear);
         Cave cave = new Cave(player,zombie);
