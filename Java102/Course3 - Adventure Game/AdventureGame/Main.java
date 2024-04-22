@@ -9,10 +9,10 @@ public class Main {
         SafeHouse safeHouse = new SafeHouse(player);
         ToolStore toolStore = new ToolStore(player);
 
-        Bear bear = new Bear("Bear",4,35,13);
-        Zombie zombie = new Zombie("Zombie",3,23,10);
-        Vampire vampire = new Vampire("Vampire",2,29,8);
-        Snake snake = new Snake("Snake",3,20,5);
+        Bear bear = new Bear("Bear",4,35,12);
+        Zombie zombie = new Zombie("Zombie",3,23,9);
+        Vampire vampire = new Vampire("Vampire",2,29,7);
+        Snake snake = new Snake("Snake",3,20,4);
 
         River river = new River(player,bear);
         Cave cave = new Cave(player,zombie);
