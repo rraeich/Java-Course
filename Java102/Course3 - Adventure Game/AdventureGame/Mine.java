@@ -562,6 +562,7 @@ public class Mine extends BattleLocations {
                 }
             }
 
+            getMonster().setHealth(mainOldMonsterHealth);
             if (getPlayer().getInventory().isMineEnter()) {
                 System.out.println("|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|");
                 System.out.println("CONGRATULATIONS! You won " + getPlayer().getName() + "!!!");
