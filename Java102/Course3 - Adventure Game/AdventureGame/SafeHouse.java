@@ -187,7 +187,7 @@ public class SafeHouse extends SafeLocations {
                                 String[] gunList = getPlayer().getShowEquipments();
 
                                 for (int i = 0; i <= 3; i++) {
-                                    if (gunList[i] == null) {
+                                    if (gunList[i].equals("null")) {
                                         continue;
                                     }
                                     if (i == 3) {
@@ -315,7 +315,7 @@ public class SafeHouse extends SafeLocations {
                                 String[] armorList = getPlayer().getShowEquipments();
 
                                 for (int i = 0; i <= 2; i++) {
-                                    if (armorList[i + 4] == null) {
+                                    if (armorList[i + 4].equals("null")) {
                                         continue;
                                     }
                                     if (i == 2) {
