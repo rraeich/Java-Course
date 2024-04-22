@@ -10,6 +10,7 @@ public class Cave extends BattleLocations {
 
     @Override
     public void enterBattleLocation() {
+        int mainOldMonsterHealth = getMonster().getHealth();
         System.out.println(getPlayer().getName() + ", you entered the Cave. You will fight with horrible bone zombies.");
 
         System.out.println("IMPORTANT: Once you roll the dice, you have to fight.");
