@@ -10,6 +10,7 @@ public class Mine extends BattleLocations {
 
     @Override
     public void enterBattleLocation() {
+        int mainOldMonsterHealth = getMonster().getHealth();
         System.out.println(getPlayer().getName() + ", you entered the Mine. You will fight with Snakes.");
 
         System.out.println("IMPORTANT: Once you roll the dice, you have to fight.");
