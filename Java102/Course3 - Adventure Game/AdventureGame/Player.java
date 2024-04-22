@@ -133,10 +133,10 @@ public class Player {
         this.name = input.nextLine();
 
         System.out.println("\n\n<<------------------------------------------------------>>");
-        System.out.println(" 1- Samurai / Health: 47 / Damage: 5 / Money: 29");
-        System.out.println(" 2- Archer / Health: 38 / Damage: 7 / Money: 17");
-        System.out.println(" 3- Knight / Health: 60 / Damage: 8 / Money: 0");
-        System.out.println(" 4- Viking / Health: 51 / Damage: 9 / Money: 4");
+        System.out.println(" 1- Samurai / Health: 47 / Damage: 4 / Money: 29");
+        System.out.println(" 2- Archer / Health: 38 / Damage: 5 / Money: 23");
+        System.out.println(" 3- Knight / Health: 55 / Damage: 6 / Money: 0");
+        System.out.println(" 4- Viking / Health: 40 / Damage: 7 / Money: 4");
         System.out.println("<<------------------------------------------------------>>");
         this.howManyKill = 0;
         choosingCharacter:
@@ -151,7 +151,7 @@ public class Player {
                     this.money = 29;
                     this.health = 47;
                     this.maxHealth = this.health;
-                    this.damage = 5;
+                    this.damage = 4;
                     for (int i = 0; i < 10; i++) {
                         this.equipments[i] = "null";
                     }
@@ -166,10 +166,10 @@ public class Player {
                 case 2:
                     this.type = "Archer";
                     this.playerID = 2;
-                    this.money = 17;
+                    this.money = 23;
                     this.health = 38;
                     this.maxHealth = this.health;
-                    this.damage = 7;
+                    this.damage = 5;
                     for (int i = 0; i < 10; i++) {
                         this.equipments[i] = "null";
                     }
@@ -185,9 +185,9 @@ public class Player {
                     this.type = "Knight";
                     this.playerID = 3;
                     this.money = 0;
-                    this.health = 60;
+                    this.health = 55;
                     this.maxHealth = this.health;
-                    this.damage = 8;
+                    this.damage = 6;
                     for (int i = 0; i < 10; i++) {
                         this.equipments[i] = "null";
                     }
@@ -203,9 +203,9 @@ public class Player {
                     this.type = "Viking";
                     this.playerID = 4;
                     this.money = 4;
-                    this.health = 51;
+                    this.health = 40;
                     this.maxHealth = this.health;
-                    this.damage = 9;
+                    this.damage = 7;
                     for (int i = 0; i < 10; i++) {
                         this.equipments[i] = "null";
                     }
