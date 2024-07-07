@@ -1,8 +1,6 @@
-package JavaThreadKurs;
-
 import java.util.*;
 
-public class JavaKurs {
+public class Main {
     public static void main(String[] args) throws InterruptedException {
 
         List<Thread> threads = new ArrayList<>();
